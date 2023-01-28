@@ -1,3 +1,10 @@
+/*
+Fizzy is a sample command line program to test the [github.com/go-micah/fizzbuzz] package.
+
+Usage:
+
+	./bin/fizzy
+*/
 package main
 
 import (

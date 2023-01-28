@@ -1,2 +1,2 @@
 fizzy: 	
-	go build -o bin/fizzy cmd/main.go
+	go build -o bin/fizzy cmd/fizzy.go

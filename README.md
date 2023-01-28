@@ -1,5 +1,7 @@
 # fizzbuzz
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/go-micah/fizzbuzz.svg)](https://pkg.go.dev/github.com/go-micah/fizzbuzz)
+
 A Go package to help solve your FizzBuzz challenge.
 
 Import this package into your Go project like this:

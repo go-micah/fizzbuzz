@@ -7,7 +7,7 @@ A Go package to help solve your FizzBuzz challenge.
 Import this package into your Go project like this:
 
 ```
-import github.com/go-micah/fizzbuzz/fizzbuzz
+import github.com/go-micah/fizzbuzz
 ```
 
 Use it in your program like this:

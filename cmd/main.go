@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-micah/fizzbuzz/fizzbuzz"
+	"github.com/go-micah/fizzbuzz"
 )
 
 func main() {

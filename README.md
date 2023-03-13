@@ -1,6 +1,6 @@
 # fizzbuzz
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/go-micah/fizzbuzz.svg)](https://pkg.go.dev/github.com/go-micah/fizzbuzz)
+[![Go Reference](https://pkg.go.dev/badge/github.com/go-micah/fizzbuzz.svg)](https://pkg.go.dev/github.com/go-micah/fizzbuzz) [![Go](https://github.com/go-micah/fizzbuzz/actions/workflows/go.yml/badge.svg)](https://github.com/go-micah/fizzbuzz/actions/workflows/go.yml)
 
 A Go package to help solve your FizzBuzz challenge.
 

@@ -10,7 +10,7 @@ func Calculate(x int) string {
 	var multipleOfFive float64 = float64(x) / 5
 
 	if (multipleOfThree == float64(int64(multipleOfThree))) && (multipleOfFive == float64(int64(multipleOfFive))) {
-		return "FizBuzz"
+		return "FizzBuzz"
 	}
 
 	if multipleOfThree == float64(int64(multipleOfThree)) {

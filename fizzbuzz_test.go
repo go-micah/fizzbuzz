@@ -41,3 +41,13 @@ func TestCalculateOther(t *testing.T) {
 		t.Errorf("expected %q, got %q", want, got)
 	}
 }
+
+func TestCalculateZero(t *testing.T) {
+
+	want := "0"
+	got := Calculate(0)
+
+	if want != got {
+		t.Errorf("expected %q, got %q", want, got)
+	}
+}

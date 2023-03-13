@@ -6,18 +6,22 @@ import "strconv"
 // Calculate returns a string representation of the answer to FizzBuzz given an integer value
 func Calculate(x int) string {
 
-	var multipleOfThree float64 = float64(x) / 3
-	var multipleOfFive float64 = float64(x) / 5
+	if x == 0 {
+		return "0"
+	}
 
-	if (multipleOfThree == float64(int64(multipleOfThree))) && (multipleOfFive == float64(int64(multipleOfFive))) {
+	multipleOfThree := x % 3
+	multipleOfFive := x % 5
+
+	if (multipleOfThree == 0) && (multipleOfFive == 0) {
 		return "FizzBuzz"
 	}
 
-	if multipleOfThree == float64(int64(multipleOfThree)) {
+	if multipleOfThree == 0 {
 		return "Fizz"
 	}
 
-	if multipleOfFive == float64(int64(multipleOfFive)) {
+	if multipleOfFive == 0 {
 		return "Buzz"
 	}
 
